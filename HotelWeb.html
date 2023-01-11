@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+
+
+    <title>IT Group of Hotels </title>
+</head>
+<body>
+
+    <!--header for navigation and main heading-->
+	<a id="login-button" ms-hide-element="true" href="file:///C:/Users/LAB-3-8/Documents/A02/login.html" class="button logout login w-button">Sign up</a>
+
+<hr style="color:#f3f0f0;">
+    <div id="header">
+        <!----navigation id-->
+
+      <a href="#">Home</a> |
+      <a href="#burgers">Burgers</a> |
+      <a href="#fries">Fries</a> | 
+      <a href="#noodles">Noodles</a> |
+      <a href="#greens">Greens</a> |
+      <a href="#deserts">Deserts</a> |
+      <a href="#footer">contact</a> |
+      <h1><span style="color: red;">SOFTWAVE</span> 
+        <span style="color: yellow;">HOTELS</span>
+    </h1>
+    </div>
+    <!--main section-->
+    
+
+    <div id="main content">
+
+        <h2>Welcome to our hotel</h2>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo natus, sed, fugiat laborum repudiandae esse libero possimus
+             exercitationem veniam tempore quaerat officiis magni. Voluptatibus, esse molestiae. Explicabo illo pariatur ea esse, doloribus 
+             necessitatibus corrupti numquam aliquam aliquid, omnis dolorum quae?
+
+        </p>
+        <table>
+            <tr>
+                <td>
+                    <img src="main1.jpg" alt="" class="main">
+                </td>
+                <td>
+                    <img src="main2.jpg" class="main">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Awesome ingredients
+            </td>
+            <td>
+                Nice interier
+            </td>
+        </tr>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel provident odio ullam nam, tempora placeat mollitia? Facilis
+             voluptate distinctio repudiandae fugiat error nihil, libero similique quia totam voluptatem tenetur atque eligendi, earum 
+             soluta sequi 
+            molestiae ratione iusto? Enim explicabo eveniet alias nisi amet? Nobis quia deleniti doloribus praesentium quas odit!</p>
+
+    </div>
+    <!--berger section-->
+    <div id="burgers">
+       
+<h2 style="text-align:center">Burgers </h2>
+
+<div class="row">
+  <div class="column">
+    <img src="https://media.istockphoto.com/photos/juicy-hamburger-on-white-background-picture-id1206323282?k=20&m=1206323282&s=612x612&w=0&h=yatlq6BHRCCvoTzFZLSwaJc0O8Quct_tRPWtH0dj9Fc=" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam perspiciatis odio, praesentium tempore atque voluptatum 
+            itaque modi culpa eos, quidem sit dolore quod doloribus nesciunt sed libero, molestiae sapiente dolor? Aliquid in voluptates,
+             officiis reiciendis doloremque aperiam quibusdam perferendis sequi ab quod eos neque enim iure quam,
+             obcaecati porro.</p>
+             <a href="file:///C:/Users/LAB-3-8/Documents/A02/Burgers.html">More➡</a>
+    </div>
+    <!--fries-->
+    <div id="fries"><h2>Fire & Ice with our Fries</h2>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus est aspernatur itaque cumque. Voluptas deleniti reprehenderit,
+         sint voluptatem officiis aliquam dolor! Aliquam ullam explicabo reprehenderit aliquid beatae qui minima architecto delectus, magnam 
+         eaque illo nulla facilis 
+        quam perferendis consequatur dolores incidunt adipisci commodi repudiandae nam veniam quasi sequi! Quibusdam.</P>
+
+      
+<div class="row">
+    <div class="column">
+      <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Fries-Small-Medium.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="Desktop.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Fries-Small-Medium.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="Desktop.jpg">2 / 4</div>
+        <iill(auto,1)/how-t.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST83yIh8Nvtj-LZTNV_TPQxqq1CHsvGoh_Lg&usqp=CAU" style="width:50%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST83yIh8Nvtj-LZTNV_TPQxqq1CHsvGoh_Lg&usqp=CAU" style="width:50%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+  
+      <div class="column">
+        <img class="demo cursor" src="https://www.thespruceeats.com/thmb/IHKuXcx3uUI1IWkM_cnnQdFH-zQ=/3485x2323/filters:fill(auto,1)/how-to-make-homemade-french-fries-2215971-hero-01-02f62a016f3e4aa4b41d0c27539885c3.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="Desktop.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST83yIh8Nvtj-LZTNV_TPQxqq1CHsvGoh_Lg&usqp=CAU" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+    </div>
+  </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam perspiciatis odio, praesentium tempore atque voluptatum 
+            itaque modi culpa eos, quidem sit dolore quod doloribus nesciunt sed libero, molestiae sapiente dolor? Aliquid in voluptates,
+             officiis reiciendis doloremque aperiam quibusdam perferendis sequi ab quod eos neque enim iure quam,
+             obcaecati porro.</p>
+
+   <a href="file:///C:/Users/LAB-3-8/Documents/A02/Fries.html">More➡</a>
+    </div>
+    <!--noodeles-->
+    <div id="noodles">
+        <h2>Our collectiom of Noodles</h2>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus est aspernatur itaque cumque. Voluptas deleniti reprehenderit,
+         sint voluptatem officiis aliquam dolor! Aliquam ullam explicabo reprehenderit aliquid beatae qui minima architecto delectus, magnam 
+         eaque illo nulla facilis 
+        quam perferendis consequatur dolores incidunt adipisci commodi repudiandae nam veniam quasi sequi! Quibusdam.</P>
+
+       
+<div class="row">
+    <div class="column">
+      <img src="https://media.istockphoto.com/photos/juicy-hamburger-on-white-background-picture-id1206323282?k=20&m=1206323282&s=612x612&w=0&h=yatlq6BHRCCvoTzFZLSwaJc0O8Quct_tRPWtH0dj9Fc=" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:50%">
+      </div>
+   
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+  
+      <div class="column">
+        <img class="demo cursor" src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+    </div>
+  </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam perspiciatis odio, praesentium tempore atque voluptatum 
+            itaque modi culpa eos, quidem sit dolore quod doloribus nesciunt sed libero, molestiae sapiente dolor? Aliquid in voluptates,
+             officiis reiciendis doloremque aperiam quibusdam perferendis sequi ab quod eos neque enim iure quam,
+             obcaecati porro.</p>
+
+
+    </div>
+    <a href="file:///C:/Users/LAB-3-8/Documents/A02/Fries.html">More➡</a>
+    <!--greens-->
+    <div id="greens"><h2>lead a healthy life</h2>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus est aspernatur itaque cumque. Voluptas deleniti reprehenderit,
+         sint voluptatem officiis aliquam dolor! Aliquam ullam explicabo reprehenderit aliquid beatae qui minima architecto delectus, magnam 
+         eaque illo nulla facilis 
+        quam perferendis consequatur dolores incidunt adipisci commodi repudiandae nam veniam quasi sequi! Quibusdam.</P>
+
+       
+<div class="row">
+    <div class="column">
+      <img src="https://media.istockphoto.com/photos/juicy-hamburger-on-white-background-picture-id1206323282?k=20&m=1206323282&s=612x612&w=0&h=yatlq6BHRCCvoTzFZLSwaJc0O8Quct_tRPWtH0dj9Fc=" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+  
+      <div class="column">
+        <img class="demo cursor" src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+    </div>
+  </div>
+  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam perspiciatis odio, praesentium tempore atque voluptatum 
+            itaque modi culpa eos, quidem sit dolore quod doloribus nesciunt sed libero, molestiae sapiente dolor? Aliquid in voluptates,
+             officiis reiciendis doloremque aperiam quibusdam perferendis sequi ab quod eos neque enim iure quam,
+             obcaecati porro.</p>
+
+    </div>  
+    <a href="file:///C:/Users/LAB-3-8/Documents/A02/Greens.html">More➡</a>
+    <!--deserts-->
+      <div id="deserts">
+        <h2>Enjoy the deserts</h2>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel doloribus est aspernatur itaque cumque. Voluptas deleniti reprehenderit,
+         sint voluptatem officiis aliquam dolor! Aliquam ullam explicabo reprehenderit aliquid beatae qui minima architecto delectus, magnam 
+         eaque illo nulla facilis 
+        quam perferendis consequatur dolores incidunt adipisci commodi repudiandae nam veniam quasi sequi! Quibusdam.</P>
+
+  
+<div class="row">
+    <div class="column">
+      <img src="https://media.istockphoto.com/photos/juicy-hamburger-on-white-background-picture-id1206323282?k=20&m=1206323282&s=612x612&w=0&h=yatlq6BHRCCvoTzFZLSwaJc0O8Quct_tRPWtH0dj9Fc=" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="https://thumbs.dreamstime.com/b/big-burger-isolated-white-43062448.jpg" style="width:50%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:50%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+  
+      <div class="column">
+        <img class="demo cursor" src="https://st2.depositphotos.com/1000339/5752/i/600/depositphotos_57527967-stock-photo-burger-and-french-fries.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://us.123rf.com/450wm/alexskp/alexskp2003/alexskp200300082/143499095-fresh-tasty-burger-isolated-on-white.jpg?ver=6" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+    </div>
+  </div>
+  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aperiam perspiciatis odio, praesentium tempore atque voluptatum 
+            itaque modi culpa eos, quidem sit dolore quod doloribus nesciunt sed libero, molestiae sapiente dolor? Aliquid in voluptates,
+             officiis reiciendis doloremque aperiam quibusdam perferendis sequi ab quod eos neque enim iure quam,
+             obcaecati porro.</p>
+             <a href="file:///C:/Users/LAB-3-8/Documents/A02/Deserts.html">More➡</a>
+      <!--footer-->
+    </div>
+    <div id="footer">
+        <h2>contact IT Hotels</h2>
+        <p>copyRight &copy;,IT GROUP OF HOTELS</p>
+        <p>All right preserved<br>
+        Developed and maintained by <a href="https://wwww.google.com">Softwave IT</a></p>
+   
+        <hr>
+        <div>
+          
+          <a href="#">Home</a> |
+          <a href="#burgers">Burgers</a> |
+          <a href="#fries">Fries</a> | 
+          <a href="#noodles">Noodles</a> |
+          <a href="#greens">Greens</a> |
+          <a href="#deserts">Deserts</a> |
+          <a href="#footer">contact</a> |</div>
+      
+    </div>
+    <script>
+        function openModal() {
+          document.getElementById("myModal").style.display = "block";
+        }
+        
+        function closeModal() {
+          document.getElementById("myModal").style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+            
+    
+</body>
+</html>
